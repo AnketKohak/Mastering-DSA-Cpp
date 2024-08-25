@@ -21,6 +21,7 @@ int main(){
     cout << "Program start:" << endl;
 
     int arr[10]={12,11,31,41,315,113161,7311211,318,129,3210};
+    int n =10;
     minMax(arr,10); 
     cout << "Program end:" << endl;
     return 0;

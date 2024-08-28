@@ -12,40 +12,6 @@ int numFinder(int arr[], int size)
 }
 
 int main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 {
     cout << "Program start:" << endl;
 

@@ -11,7 +11,11 @@ int main()
         {
             cout << " ";
         }
-       
+        for (int j = 0; j <= i; j++)
+        {
+            cout << "* ";
+        }
+        cout << endl;
     }
 
     cout << "Program end:" << endl;

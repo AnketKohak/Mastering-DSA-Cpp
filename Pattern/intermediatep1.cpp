@@ -17,7 +17,12 @@ int main()
             cout << count << " ";
             count++;
         }
-       
+        for (int right = 1; right < row; right++)
+        {
+            count--;
+            cout << count << " ";
+        }
+        cout << endl;
     }
 
     cout << "Program end:" << endl;

@@ -5,22 +5,23 @@ int main()
 {
     cout << "Program start:" << endl;
     int n = 5;
-    int count = 1;
+    int count = 0;
     for (int row = 1; row <= n; row++)
     {
-        for (int space = n - row; n >= 1; n--)
+        for (int space = n - row; space >= 1; space--)
         {
-            cout << " ";
+            cout << "  ";
         }
         for (int left = 1; left <= row; left++)
         {
-            cout << count << " ";
             count++;
+            cout <<count<<" ";
+           
         }
         for (int right = 1; right < row; right++)
         {
-            count--;
-            cout << count << " ";
+            --count;
+            cout << count<<" ";
         }
         cout << endl;
     }

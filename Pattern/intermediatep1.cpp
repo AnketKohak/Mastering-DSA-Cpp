@@ -5,10 +5,11 @@ int main()
 {
     cout << "Program start:" << endl;
     int n = 5;
-    for (int i = 0; i <= n; i++)
+    for (int row = 1; row <= n; row++)
     {
-
-        
+        for (int space = n - row; n >= 1; n--)
+        {
+        }
     }
 
     cout << "Program end:" << endl;

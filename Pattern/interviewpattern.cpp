@@ -1,28 +1,42 @@
 #include <iostream>
 using namespace std;
 
+void printPattern(int n)
+{
+    int size = 2 * n - 1;
+
+    for (int i = 0; i < size; i++)
+    {
+        for (int j = 0; j < size; j++)
+        {
+            // Calculate the minimum distance to the edges
+            int top = i;
+            int bottom = size - 1 - i;
+            int left = j;
+            int right = size - 1 - j;
+
+            // Find the smallest distance
+            int minDist = top;
+            if (bottom < minDist)
+                minDist = bottom;
+            if (left < minDist)
+                minDist = left;
+            if (right < minDist)
+                minDist = right;
+
+            // Determine the value to print
+            int num = n - minDist;
+            cout << num;
+        }
+        cout << endl;
+    }
+}
+
 int main()
 {
-    cout << "Program start:" << endl;
-    int n = 3;
-    int repo = 1;
-    for (int row = 1; row <n*2; row++)
-    {
-        for (int col = 1; col <n*2; col++)
-        {
-            if(row==repo || col==repo || row==5 || col==5){
-                cout<<"3 ";
-            }
-            else if(row==3 && col==3){
-                cout<<"1 ";
-            }
-            else{
-                cout<<"2 ";
-            }
-        }
-        cout<<endl;
-    }
-
-    cout << "Program end:" << endl;
+    int n;
+    cout << "Enter the value of n: ";
+    cin >> n;
+    printPattern(n);
     return 0;
 }

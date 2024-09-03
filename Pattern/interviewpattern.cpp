@@ -5,20 +5,19 @@ int main()
 {
     cout << "Program start:" << endl;
     int n = 3;
-    int repo = 0;
-    for (int row = 0; row <n*2; row++)
+    int repo = 1;
+    for (int row = 1; row <n*2; row++)
     {
-        for (int col = 0; col <n*2; col++)
+        for (int col = 1; col <n*2; col++)
         {
-            if (row == repo || col == repo || row == (n * 2)-1 || col == (n * 2) - 1)
-            {
-                cout<<n-repo;
+            if(row==repo || col==repo || row==5 || col==5){
+                cout<<"3 ";
             }
             else if(row==3 && col==3){
-                cout<<"1";
+                cout<<"1 ";
             }
             else{
-                cout<<"2";
+                cout<<"2 ";
             }
         }
         cout<<endl;

@@ -23,3 +23,8 @@ int main(){
     cout << "Program end:" << endl;
     return 0;
 }
+// A
+// ABA
+// ABCBA
+// ABCDCBA
+// ABCDEDCBA

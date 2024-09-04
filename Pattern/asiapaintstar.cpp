@@ -24,3 +24,7 @@ int main()
     cout << "Program end:" << endl;
     return 0;
 }
+//     * 
+//    * * 
+//   * * * 
+//  * * * * 

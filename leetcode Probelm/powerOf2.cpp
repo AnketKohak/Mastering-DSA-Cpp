@@ -11,11 +11,9 @@ int main (){
             cout<<"this is power of 2 number";
             return 1;
         }
-
     }
     cout<<"this not powerof 2";
 
-    return 0;
     
-    
+    return 0;    
 }

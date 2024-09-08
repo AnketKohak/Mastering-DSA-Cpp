@@ -16,4 +16,5 @@ int main (){
     cout<<"this not powerof 2";
 
     return 0;
+    
 }

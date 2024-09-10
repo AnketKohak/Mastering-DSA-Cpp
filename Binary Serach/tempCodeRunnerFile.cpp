@@ -1,0 +1,1 @@
+ arr.lenght()-1;

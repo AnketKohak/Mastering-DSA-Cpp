@@ -33,3 +33,7 @@ int main()
     cout << "Program end:" << endl;
     return 0;
 }
+
+// Program start:
+// peak element : 4
+// Program end:

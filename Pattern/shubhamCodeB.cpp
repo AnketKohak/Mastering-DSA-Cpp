@@ -3,10 +3,10 @@ using namespace std;
 
 int main()
 {
-    int a = 15;
+    int a = 10;
     int temp = a;
 
-    for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 4; i++)
     {
         int elements = 4 - i;
 

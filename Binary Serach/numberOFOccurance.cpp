@@ -67,7 +67,6 @@ int main()
     cout << "last : " << lastTime << endl;
 
     cout<<"number of occuarnce : "<<lastTime-firstTime+1<<endl;
-
     cout << "Program end:" << endl;
     return 0;
 }

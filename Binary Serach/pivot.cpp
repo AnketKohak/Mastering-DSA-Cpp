@@ -11,7 +11,7 @@ int pivot(int arr[], int size)
     {
         if (arr[0] > arr[mid])
         {
-            end = mid ;
+            end = mid-1 ;
         }
         else
         {
@@ -34,3 +34,8 @@ int main()
     cout << "Program end:" << endl;
     return 0;
 }
+
+
+// Program start:
+// pivot point is : 3
+// Program end:

@@ -18,3 +18,11 @@ int main(){
      i = i + 1;
     }
 }
+
+
+// enter the number : 5
+// ABCDE
+// FGHIJ
+// KLMNO
+// PQRST
+// UVWXY

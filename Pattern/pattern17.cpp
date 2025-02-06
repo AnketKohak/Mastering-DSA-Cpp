@@ -20,3 +20,7 @@ int main(){
       
     }   
 }
+// D
+// CD
+// BCD
+// ABCD

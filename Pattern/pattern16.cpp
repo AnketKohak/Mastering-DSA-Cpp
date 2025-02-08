@@ -2,12 +2,10 @@
 using namespace std;
 
 int main(){
-    cout<<"enter the number : ";
-    int n;
-    cin>>n;
+   
     int row=1;
     char c = 65;
-    while(row <=n){
+    while(row <=5){
         int col = 1;
         while(col <= row){
          
@@ -21,3 +19,8 @@ int main(){
       
     }   
 }
+// A
+// BC
+// CDE
+// DEFG
+// EFGHI
